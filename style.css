@@ -1,0 +1,12 @@
+* {
+    margin: 10px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header img {
+    width: 20%;
+}
