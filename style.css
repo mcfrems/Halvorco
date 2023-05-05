@@ -1,5 +1,6 @@
 * {
     margin: 10px;
+    font-family: 'Tilt Neon', cursive;
 }
 
 .header {
@@ -7,6 +8,25 @@
     justify-content: space-between;
 }
 
+.companies-container {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+}
+
+.companies-container img {
+    height: 90%;
+}
+
 .header img {
     width: 20%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 0 60px;
+    background-color: tan;
 }
