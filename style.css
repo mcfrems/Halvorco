@@ -1,25 +1,36 @@
 * {
-    margin: 10px;
+    margin: 0;
     font-family: 'Tilt Neon', cursive;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
+    margin: 40px 0 40px 40px;
+}
+
+.background-color {
+    width: 100%;
+    height: 440px;
+    background-color: #252F30;
+    color: white;
+    padding: 60px 0 0 40px;
 }
 
 .companies-container {
     height: 50vh;
+    margin-top: -300px;
     display: flex;
     justify-content: center;
 }
 
 .companies-container img {
     height: 90%;
+    margin: 0 10px;
 }
 
 .header img {
-    width: 20%;
+    width: 10%;
 }
 
 .footer {
@@ -28,5 +39,5 @@
     align-items: center;
     height: 50px;
     padding: 0 60px;
-    background-color: tan;
+    /* background-color: tan; */
 }
