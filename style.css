@@ -18,19 +18,19 @@
 }
 
 .companies-container {
-    height: 50vh;
     margin-top: -300px;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .companies-container img {
-    height: 90%;
+    height: 40vh;
     margin: 0 10px;
 }
 
 .header img {
-    width: 10%;
+    width: 20%;
 }
 
 .footer {
@@ -38,6 +38,14 @@
     justify-content: space-between;
     align-items: center;
     height: 50px;
-    padding: 0 60px;
+    padding: 50px 40px 0 40px;
     /* background-color: tan; */
 }
+
+@media (max-width: 720px) {
+    .companies-container img {
+      width: 60%;
+      height: auto;
+      margin-bottom: 10px;
+    }
+  }
