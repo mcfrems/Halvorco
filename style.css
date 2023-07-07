@@ -1,15 +1,22 @@
 * {
-    margin: 1;
+    margin: 0;
     font-family: 'Tilt Neon', cursive;
 }
 
 .header {
-    /* display: flex;
-    justify-content: space-between; */
-    margin: 40px 0 80px 40px;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0 40px 40px;
+}
+
+.background-color {
+    width: 100%;
+    height: 440px;
+    padding: 60px 0 0 40px;
 }
 
 .companies-container {
+    margin-top: -300px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
